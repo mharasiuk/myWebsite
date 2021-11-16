@@ -1,0 +1,876 @@
+/* ------------ header  start ------------ */
+
+.home {
+  position: absolute;
+  font-weight: 200;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 20px;
+
+}
+
+
+.home p {
+  font-size: 25px;
+  display: block;
+  padding-bottom: 20px;
+  font-weight: 400;
+  color: #49D907;
+  z-index: 1;
+}
+
+.home h1 {
+  display: block;
+  padding-bottom: 15px;
+  font-size: 35px;
+  color: #49D907;
+
+}
+
+.home h2 {
+  display: block;
+  font-size: 23px;
+  color: white;
+
+}
+
+.landing-page {
+  width: 100%;
+  height: 100vh;
+  top: 10vh;
+  left: 0;
+
+
+
+}
+
+/* ------------ przycisk poczatkowy start ------------ */
+button {
+  font: "Roboto", Arial, san-serif;
+  height: 58px;
+}
+
+a button {
+  display: block;
+  position: absolute;
+  top: 80vh;
+  width: 350px;
+  border-radius: 5px;
+  padding: 15px;
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 2px solid #49D907;
+  background-color: rgba(255, 255, 255, 0);
+
+}
+
+a button:hover {
+  transition: 0.5s;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  background-color: rgba(40, 40, 40, 0.5);
+}
+
+.mybutton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+/* ------------ przycisk poczatkowy stop ------------ */
+
+/* ------------ header  stop ------------ */
+
+
+
+
+/* ------------ menu basics start ------------*/
+
+nav {
+  height: 84px;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.sf-menu,
+.sf-menu * {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sf-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.sf-menu ul {
+  position: absolute;
+  z-index: 2;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+.sf-menu > li {
+  float: left;
+}
+
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+  display: block;
+}
+
+.sf-menu a {
+  display: block;
+  position: relative;
+}
+
+.sf-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+/* ------------ menu basics stop ------------*/
+
+
+
+/* ------------ menu skin start -------------*/
+
+
+
+.sf-menu {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.sf-menu a {
+  padding: 10px 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  color: #151515;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.sf-menu > li > a {
+  color: #333333;
+  padding: 15px;
+  border-bottom: 2px solid transparent;
+  font-size: 15px;
+  line-height: 53px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+
+.sticky-wrapper-scroll .sf-menu > li > a {
+  padding: 9px 25px;
+  line-height: 35px;
+}
+
+
+.sf-menu li {
+  -webkit-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+  position: relative;
+  text-decoration: none;
+}
+
+.sf-menu li:hover a,
+.sf-menu li.sfHover a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.sf-menu li a:hover {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+
+}
+
+.sf-menu li.active a {
+  color: black;
+  border-bottom-color: #FFFFFF;
+}
+
+
+
+.sf-menu ul {
+  min-width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+
+.sf-menu ul > li:last-child > a {
+  border-bottom: none;
+}
+
+/* ------------ menu skin stop -------------*/
+
+
+
+/* ------------ about me strart ------------*/
+
+
+.secrionaboutme {
+  min-height: 100vh;
+  display: block;
+  padding-bottom: 150px;
+  box-sizing: border-box;
+
+}
+
+
+/* ------------ opis sekcj strart ------------*/
+
+.titleone {
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+
+}
+
+
+.headline {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #252525;
+  color: #252525;
+  font: 12px Arial, sans-serif;
+  line-height: 20px;
+  text-align: center;
+}
+
+.headline h1 {
+  padding: 10px 15px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  line-height: 53px;
+}
+
+
+.headline p {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  left: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+
+.headline p span {
+  padding: 0 10px;
+  background-color: #FFFFFF;
+}
+
+/* ------------ opis sekcj stop ------------*/
+
+
+.imageone {
+  width: 25%;
+  float: left;
+}
+
+.describe {
+  width: 75%;
+  float: right;
+}
+
+.describeme {
+  box-sizing: border-box;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-top: 125px;
+}
+
+.imageone img {
+  display: block;
+  width: 17.3vw;
+  transition-duration: 1s;
+
+}
+
+.imageone img:hover {
+  transform: scale(1.05);
+}
+
+.describe p {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 0px 0px 0px 50px;
+  color: #000000;
+  line-height: normal;
+  text-align: justify;
+  color: #000000;
+  font-size: 1.15rem;
+  line-height: 30px;
+}
+
+/* ------------ about me stop ------------*/
+
+
+
+/* ------------ skills start ------------*/
+/* ------------ projekty start ------------*/
+
+.projects {
+  min-height: 200vh;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 150px;
+}
+
+.skills {
+  min-height: 145vh;
+  display: block;
+  box-sizing: border-box;
+  background-color: #F6F6F6;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 150px;
+}
+
+.firstskills,
+.firstprojects {
+  margin-top: 100px;
+}
+
+
+.myskills h2,
+.myprojects h2 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.myskills p,
+.myprojects p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.15rem;
+  text-align: center;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 500;
+}
+
+
+/* ------------ skills stop ------------*/
+/* ------------ projekty stop ------------*/
+
+
+/* ------------ hobby start ------------*/
+.hobby {
+  min-height: 300vh;
+  display: block;
+  box-sizing: border-box;
+  background-color: #F6F6F6;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 150px;
+}
+
+.firsthobby {
+  margin-top: 100px;
+}
+
+.describehobby p {
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 1.15rem;
+  line-height: 30px;
+  color: #000000;
+  font-weight: normal;
+}
+
+.mainhobby {
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+
+.myhobby .imagehobby img {
+  display: block;
+  box-sizing: border-box;
+  width: 20.7vw;
+  transition-duration: 1s;
+}
+
+.myhobby .imagehobby img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+.myhobby .imageodd {
+  width: 30%;
+  float: right;
+}
+
+.myhobby .describeodd {
+  width: 70%;
+  float: left;
+  padding-right: 50px;
+}
+
+.myhobby .imageeven {
+  width: 30%;
+  float: left;
+}
+
+.myhobby .describeeven {
+  width: 70%;
+  float: right;
+  padding-left: 50px;
+}
+
+/* ------------ hobby stop ------------*/
+
+
+
+/* ------------ kontakt start ------------*/
+.contact {
+  min-height: 80vh;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-bottom: 150px;
+  font: "Roboto", Arial, san-serif;
+}
+
+
+
+.mycontact {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 100px;
+
+
+}
+
+.mycontact .socialmedia {
+  float: left;
+  width: 30%;
+  padding-right: 100px;
+  /*  background-color: red;*/
+
+}
+
+.mycontact .sendmailtome {
+  float: right;
+  width: 70%;
+  /*  background-color: aqua;*/
+  margin-bottom: 100px;
+}
+
+.imagecontact img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  transition-duration: 1s;
+
+}
+
+.imagecontact img:hover {
+  transform: scale(1.05);
+
+}
+
+
+/* ------------ formularz start  ------------*/
+
+.mycontact .sendmailtome .span1 {
+  float: left;
+  border: 0;
+}
+
+.mycontact .sendmailtome .span1 {
+  width: 100%;
+  margin-left: 100px;
+  font: "Roboto", Arial, san-serif;
+}
+
+#contact-form {
+  overflow: hidden;
+  margin-top: 50 px;
+}
+
+
+.sendmailtome h3 {
+  font: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+  /*  background-color: blueviolet;*/
+
+}
+
+.socialmedia h3 {
+  font: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  /*  background-color: aqua;*/
+}
+
+
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+input,
+textarea {
+  display: block;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 6px 10px;
+  border: px solid #dddddd;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: #666666;
+  font: 16px 'Roboto', sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+  border-color: #cdcdcd;
+  outline: none;
+}
+
+textarea {
+  min-height: 100px;
+  overflow: auto;
+}
+
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #cccccc;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #cccccc;
+}
+
+
+
+/* Contact Form */
+
+#contact-form {
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+
+input.validation-error,
+textarea.validation-error {
+  border: 1px solid #a1a1a1;
+}
+
+
+#contact-form input[type="text"],
+#contact-form textarea {
+  padding: 20px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  color: #000000;
+  resize: none;
+}
+
+#contact-form input[type="submit"] {
+  border: 1px solid #000000;
+  margin-top: 50px;
+  background-color: transparent;
+  color: #000000;
+}
+
+#contact-form input[type="submit"]:hover {
+  background-color: #FFFFFF;
+}
+
+
+
+/* ------------ formularz stop ------------*/
+
+.last {
+  background-color: #FFFFFF;
+  min-height: 15vh;
+  clear: both;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+  font: "Roboto", Arial, san-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 350px;
+
+}
+
+.butttontwo {
+  background-color: rgba(40, 40, 40, 0.05);
+}
+
+.lastbutton {
+  /*  margin-top: 100px;*/
+  box-sizing: border-box;
+  display: block;
+  height: 51px;
+  line-height: 29px;
+}
+
+.lastbutton input {
+  font: "Roboto", Arial, san-serif;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 50px;
+  border: 1px solid #000000;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 350px;
+  height: 51px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.lastbutton input:hover {
+  font-size: 1.25rem;
+  transition: 0.5s;
+  background-color: rgba(40, 40, 40, 0.1);
+}
+
+
+.mysocialmedia {
+  /*  background-color: aqua;*/
+  min-width: 290px;
+  padding-top: 10px;
+}
+
+
+
+.fab {
+  font-size: 65px;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  transition-duration: 1s;
+
+}
+
+
+.fab:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+
+
+.fa-linkedin-square {
+  background: #FFFFFF;
+  color: #007bb5;
+}
+
+
+.fa-instagram {
+  color: #f09433;
+  color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+  background-color: #FFFFFF;
+  font-weight: 500;
+}
+
+#insta {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 68px;
+
+}
+
+
+
+.fa-github-square {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.fa-facebook-square {
+  background: #FFFFFF;
+  color: #3B5998;
+}
+
+
+
+
+/* ------------ kontakt stop ------------*/
+
+
+
+
+
+
+
+/* ------------ stopka start ------------*/
+
+.footer {
+  box-sizing: border-box;
+  display: block;
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.75);
+
+}
+
+.footer p {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.75rem;
+  text-transform: none;
+  padding-top: 50px;
+
+}
+
+/* ------------ stopka stop ------------*/
+
+
+
+
+/* ------------ powrot do nawigacji start ------------*/
+
+
+
+.back {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+
+#back-to-top.visible {
+  right: 60px;
+}
+
+
+#back-to-top {
+
+  position: fixed;
+  z-index: 10;
+  right: -100px;
+  bottom: 40px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #252525;
+  background-color: #747474;
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.5;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+#back-to-top p {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: normal;
+  color: #FFFFFF;
+  /*  vertical-align: top;*/
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+
+
+
+
+#back-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#back-to-top:hover p {
+  font-size: 45px;
+  color: #FFFFFF;
+  z-index: 9999;
+}
+
+
+
+.fas {
+  color: white;
+
+}
+
+.fa-angle-double-up {
+  color: white;
+}
+
+#back-to-top.gone {
+  right: -100px
+}
+
+
+/* ------------ powrot do nawigacji stop ------------*/
